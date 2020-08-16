@@ -48,5 +48,12 @@ public class JavaProject {
         System.out.println("Number of previous owners: " + numberOfVehicleOwners);
         System.out.println("Number Of Doors: " + numberOfDoors);
         System.out.println("Number Of Seats: " + numberOfSeats);
+
+        System.out.println("Conversion");
+        short newNumberOfSeats = numberOfSeats;
+        System.out.println("New value of number of seats:" + newNumberOfSeats);
+
+        int newMileage = mileage;
+        System.out.println("New value of mileage:" + newMileage);
     }
 }
