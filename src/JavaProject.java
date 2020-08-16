@@ -51,9 +51,12 @@ public class JavaProject {
 
         System.out.println("Conversion");
         short newNumberOfSeats = numberOfSeats;
-        System.out.println("New value of number of seats:" + newNumberOfSeats);
+        System.out.println("New value of number of seats: " + newNumberOfSeats);
 
         int newMileage = mileage;
-        System.out.println("New value of mileage:" + newMileage);
+        System.out.println("New value of mileage: " + newMileage);
+
+        byte newPower = (byte) power;
+        System.out.println("New value of Power: " + newPower);
     }
 }
